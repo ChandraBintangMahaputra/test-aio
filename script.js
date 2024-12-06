@@ -10,7 +10,7 @@ document.getElementById('tonaseForm').addEventListener('submit', function (event
             return true;
         }
         
-        for (let multiplier = 2; multiplier <= 5; multiplier++) {
+        for (let multiplier = 2; multiplier <= 100; multiplier++) {
             const validTonaseMin = tonaseMin * multiplier;
             const validTonaseMax = tonaseMax * multiplier;
             
